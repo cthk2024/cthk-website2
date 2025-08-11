@@ -23,7 +23,7 @@ const Footer = () => {
               自2005年成立以來，我們致力於為客戶提供專業、優質的旅遊服務，
               以客為尊的服務理念深受客戶信賴。
             </p>
-            <p className="text-sm text-gray-500">牌照號碼：353042</p>
+            <p className="text-sm text-gray-500">旅行社牌照：353042</p>
           </div>
 
           {/* Quick Links */}
@@ -62,6 +62,7 @@ const Footer = () => {
               <li>會議旅遊</li>
               <li>遊學團</li>
               <li>郵輪旅遊</li>
+              <li>電子商務</li>
             </ul>
           </div>
 
@@ -108,7 +109,7 @@ const Footer = () => {
               <Link to="#" className="text-gray-400 hover:text-white text-sm transition-colors">
                 免責聲明
               </Link>
-              <Link to="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link to="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors">
                 私隱政策
               </Link>
               <Link to="#" className="text-gray-400 hover:text-white text-sm transition-colors">
