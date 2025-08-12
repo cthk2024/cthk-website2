@@ -1,20 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import './App.css';
-
-// Components
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-background">
+      <div className="App">
         <Header />
         <main>
           <Routes>
@@ -22,6 +20,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </main>
         <Footer />
